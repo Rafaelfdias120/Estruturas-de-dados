@@ -15,7 +15,7 @@ int main(){
     for (int i = 0; i < TAMANHO; i++) printf("%d\t", V[i]);
     clock_t TF = clock();
 
-    double TempoCPU = ((double) TF - T0) / CLOCKS_PER_SEC;
+    double TempoCPU = (double) (TF - T0) / CLOCKS_PER_SEC;
 
     printf("\nInicio: %d", T0);
     printf("\nFim: %d", TF);
